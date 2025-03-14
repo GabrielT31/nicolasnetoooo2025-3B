@@ -3,6 +3,25 @@
 
 :root {
     --laranja-claro: #FF862A;
+    --preto: #000000;
+    --branco-smoke: #ccc9dc;
+    --cinza-claro: #bfc0c0;
+    --azul:#0d41e1;
+    --ciano:#07c8f9;
+    --verde-agua: #07beb8ff;
+    --robin: #3dccc7ff;
+    --azul-tifanny: #68d8d6ff;
+    --celeste: #9ceaefff;
+    --celeste-2: #c4fff9ff;
+    --sal-marinho: #f8f9faff;
+    --antiskye-branco: #e9ecefff;
+    --platina: #dee2e6ff;
+    --cinza-farnces: #ced4daff;
+    --cinza-frances: #adb5bdff;
+    --slate-gray: #6c757dff;
+    --espaço: #495057ff;
+    --onyx: #343a40ff;
+    --eerie-preto: #212529ff;
 }
 
 body {
@@ -11,7 +30,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color:var(--antiskye-branco);
 }
 
 
@@ -21,7 +40,7 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: var(--preto);
     font-weight: 600;
 }
 
@@ -57,7 +76,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--eerie-preto);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -69,7 +88,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px var(--eerie-preto);
 }
 
 
@@ -78,8 +97,6 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -98,29 +115,30 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: var(--azul-tifanny);
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: var(--eerie-preto);
 
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+ 
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+ 
     background-size: cover;
     padding: 4rem 0;
+    background-color: var(--eerie-preto);
     /* Espaçamento interno para a seção de contato */
 
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: var(--eerie-preto);
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -131,7 +149,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: var(--ciano);
     border: none;
     font-weight: bold;
 }
