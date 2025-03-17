@@ -97,7 +97,9 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background-size: 180px 180px;
+    background: url('img/') top right no-repeat,
+        url('img/') bottom left no-repeat;
+        
     /* Ajuste o tamanho conforme necessário */
 }
 
@@ -157,4 +159,10 @@ h2 {
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
+}
+.menu-acessibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
 }
